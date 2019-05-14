@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-14 23:17+0300\n"
-"PO-Revision-Date: 2019-05-14 23:25+0300\n"
+"POT-Creation-Date: 2019-05-14 23:44+0300\n"
+"PO-Revision-Date: 2019-05-14 23:45+0300\n"
+"Last-Translator: Petr E. Antonov <antpeter@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Last-Translator: \n"
 "X-Generator: Poedit 2.2.1\n"
 
 #: vshaurme/blueprints/admin.py:52
@@ -47,3 +47,15 @@ msgstr "Лок отменён."
 #: vshaurme/blueprints/admin.py:114
 msgid "Tag deleted."
 msgstr "Тэг удалён."
+
+#: vshaurme/templates/errors/404.html:3 vshaurme/templates/errors/404.html:10
+msgid "404 Error"
+msgstr "Ошибка 404"
+
+#: vshaurme/templates/errors/404.html:11
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: vshaurme/templates/errors/404.html:15
+msgid "Return Home"
+msgstr "На главную"
