@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-15 00:20+0300\n"
-"PO-Revision-Date: 2019-05-15 00:24+0300\n"
+"PO-Revision-Date: 2019-05-15 00:35+0300\n"
 "Last-Translator: Petr E. Antonov <antpeter@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -117,14 +117,12 @@ msgid "Return Home"
 msgstr "На главную"
 
 #: vshaurme/templates/main/index.html:50
-#, fuzzy
 msgid "Uncollect"
-msgstr "Разобрать"
+msgstr "Убрать из коллекции"
 
 #: vshaurme/templates/main/index.html:56 vshaurme/templates/main/index.html:63
-#, fuzzy
 msgid "Collect"
-msgstr "Взять"
+msgstr "Добавить в коллекцию"
 
 #: vshaurme/templates/main/index.html:95
 msgid "VShaurme"
