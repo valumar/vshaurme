@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-15 12:01+0300\n"
-"PO-Revision-Date: 2019-05-15 12:04+0300\n"
+"POT-Creation-Date: 2019-05-15 12:32+0300\n"
+"PO-Revision-Date: 2019-05-15 12:36+0300\n"
 "Last-Translator: Petr E. Antonov <antpeter@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgstr "Моя страница"
 msgid "Settings"
 msgstr "Настройки"
 
-#: vshaurme/templates/base.html:72
+#: vshaurme/templates/admin/index.html:4 vshaurme/templates/base.html:72
 msgid "Dashboard"
 msgstr "Панель управления"
 
@@ -128,6 +128,7 @@ msgstr "Редактировать профиль"
 
 #: vshaurme/templates/admin/edit_profile.html:10
 #: vshaurme/templates/admin/index.html:61
+#: vshaurme/templates/admin/manage_comment.html:9
 msgid "Dashboard Home"
 msgstr "Панель управления"
 
@@ -178,6 +179,7 @@ msgstr "Тэги"
 
 #: vshaurme/templates/admin/index.html:28
 #: vshaurme/templates/admin/index.html:92
+#: vshaurme/templates/admin/manage_comment.html:14
 msgid "Comments"
 msgstr "Комментарии"
 
@@ -190,9 +192,8 @@ msgstr "Всего:"
 
 #: vshaurme/templates/admin/index.html:70
 #: vshaurme/templates/admin/index.html:95
-#, fuzzy
 msgid "Reported:"
-msgstr "Передано:"
+msgstr "Жалоб:"
 
 #: vshaurme/templates/admin/index.html:80
 msgid "Locked:"
@@ -209,6 +210,66 @@ msgstr "Посмотреть залоченных"
 #: vshaurme/templates/admin/index.html:84
 msgid "View Blocked"
 msgstr "Посмотреть заблокированных"
+
+#: vshaurme/templates/admin/manage_comment.html:4
+msgid "Manage Comments"
+msgstr "Управление комментариями"
+
+#: vshaurme/templates/admin/manage_comment.html:10
+msgid "Manage Comment"
+msgstr "Управление комментариями"
+
+#: vshaurme/templates/admin/manage_comment.html:19
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: vshaurme/templates/admin/manage_comment.html:23
+msgid "Order by Time"
+msgstr "Сортировать по Времени"
+
+#: vshaurme/templates/admin/manage_comment.html:25
+msgid "Order by Flag"
+msgstr "Сортировать по Флагу"
+
+#: vshaurme/templates/admin/manage_comment.html:35
+msgid "Body"
+msgstr "Сообщение"
+
+#: vshaurme/templates/admin/manage_comment.html:36
+msgid "Author"
+msgstr "Автор"
+
+#: vshaurme/templates/admin/manage_comment.html:37
+msgid "Image"
+msgstr "Картинка"
+
+#: vshaurme/templates/admin/manage_comment.html:38
+msgid "Reported"
+msgstr "Жалоб"
+
+#: vshaurme/templates/admin/manage_comment.html:39
+msgid "Date"
+msgstr "Дата"
+
+#: vshaurme/templates/admin/manage_comment.html:40
+msgid "Actions"
+msgstr "Действие"
+
+#: vshaurme/templates/admin/manage_comment.html:50
+msgid "Photo"
+msgstr "Фото"
+
+#: vshaurme/templates/admin/manage_comment.html:59
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: vshaurme/templates/admin/manage_comment.html:59
+msgid "Delete"
+msgstr "Удалить"
+
+#: vshaurme/templates/admin/manage_comment.html:68
+msgid "No comments."
+msgstr "Нет комментариев."
 
 #: vshaurme/templates/errors/404.html:3 vshaurme/templates/errors/404.html:10
 msgid "404 Error"
