@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-15 00:20+0300\n"
-"PO-Revision-Date: 2019-05-15 00:35+0300\n"
+"POT-Creation-Date: 2019-05-15 12:01+0300\n"
+"PO-Revision-Date: 2019-05-15 12:04+0300\n"
 "Last-Translator: Petr E. Antonov <antpeter@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -48,11 +48,12 @@ msgstr "Лок отменён."
 msgid "Tag deleted."
 msgstr "Тэг удалён."
 
-#: vshaurme/templates/base.html:9 vshaurme/templates/base.html:24
+#: vshaurme/templates/admin/index.html:10 vshaurme/templates/base.html:9
+#: vshaurme/templates/base.html:24
 msgid "Vshaurme"
 msgstr "Вшаурме"
 
-#: vshaurme/templates/base.html:27
+#: vshaurme/templates/admin/index.html:13 vshaurme/templates/base.html:27
 msgid "Toggle navigation"
 msgstr "Вкл./выкл. навигацию"
 
@@ -72,15 +73,15 @@ msgstr "Фото, тэг или юзер"
 msgid "Upload"
 msgstr "Загрузить"
 
-#: vshaurme/templates/base.html:62
+#: vshaurme/templates/admin/index.html:39 vshaurme/templates/base.html:62
 msgid "Logged in as "
 msgstr "Вы вошли как "
 
-#: vshaurme/templates/base.html:64
+#: vshaurme/templates/admin/index.html:41 vshaurme/templates/base.html:64
 msgid "My Home"
 msgstr "Моя страница"
 
-#: vshaurme/templates/base.html:68
+#: vshaurme/templates/admin/index.html:45 vshaurme/templates/base.html:68
 msgid "Settings"
 msgstr "Настройки"
 
@@ -88,7 +89,7 @@ msgstr "Настройки"
 msgid "Dashboard"
 msgstr "Панель управления"
 
-#: vshaurme/templates/base.html:76
+#: vshaurme/templates/admin/index.html:48 vshaurme/templates/base.html:76
 msgid "Logout"
 msgstr "Выйти"
 
@@ -103,6 +104,111 @@ msgstr "Присоединиться к Вшаурме"
 #: vshaurme/templates/base.html:108
 msgid "Capture and share every wonderful moment."
 msgstr "Запечатлейте и поделитесь каждым чудесным моментом."
+
+#: vshaurme/templates/macros.html:32
+msgid "Unfollow"
+msgstr "Отписаться"
+
+#: vshaurme/templates/macros.html:34
+msgid "Follow each other"
+msgstr "Подписаться друг на друга"
+
+#: vshaurme/templates/macros.html:41 vshaurme/templates/macros.html:52
+msgid "Follow"
+msgstr "Подписаться"
+
+#: vshaurme/templates/macros.html:43
+msgid "Follows you"
+msgstr "Подписан на вас"
+
+#: vshaurme/templates/admin/edit_profile.html:5
+#: vshaurme/templates/admin/edit_profile.html:16
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: vshaurme/templates/admin/edit_profile.html:10
+#: vshaurme/templates/admin/index.html:61
+msgid "Dashboard Home"
+msgstr "Панель управления"
+
+#: vshaurme/templates/admin/edit_profile.html:11
+msgid "Manage User"
+msgstr "Управление пользователем"
+
+#: vshaurme/templates/admin/edit_profile.html:12
+#: vshaurme/templates/admin/edit_profile.html:21
+msgid "Edit Profile"
+msgstr "Редактировать профиль"
+
+#: vshaurme/templates/admin/edit_profile.html:17
+#, python-format
+msgid "Return %(username)s's homepage"
+msgstr "Перейти на страницу пользователя %(username)s"
+
+#: vshaurme/templates/admin/index.html:10
+msgid "Vshaurme Dashboard"
+msgstr "Панель управления Вшаурме"
+
+#: vshaurme/templates/admin/index.html:19
+msgid "Return Vsharume"
+msgstr "На главную"
+
+#: vshaurme/templates/admin/index.html:22
+#: vshaurme/templates/admin/index.html:71
+#: vshaurme/templates/admin/index.html:82
+#: vshaurme/templates/admin/index.html:96
+#: vshaurme/templates/admin/index.html:106
+msgid "Manage"
+msgstr "Редактировать"
+
+#: vshaurme/templates/admin/index.html:25
+#: vshaurme/templates/admin/index.html:67
+msgid "Photos"
+msgstr "Фотографии"
+
+#: vshaurme/templates/admin/index.html:26
+#: vshaurme/templates/admin/index.html:77
+msgid "Users"
+msgstr "Пользователи"
+
+#: vshaurme/templates/admin/index.html:27
+#: vshaurme/templates/admin/index.html:102
+msgid "Tags"
+msgstr "Тэги"
+
+#: vshaurme/templates/admin/index.html:28
+#: vshaurme/templates/admin/index.html:92
+msgid "Comments"
+msgstr "Комментарии"
+
+#: vshaurme/templates/admin/index.html:69
+#: vshaurme/templates/admin/index.html:79
+#: vshaurme/templates/admin/index.html:94
+#: vshaurme/templates/admin/index.html:104
+msgid "Total:"
+msgstr "Всего:"
+
+#: vshaurme/templates/admin/index.html:70
+#: vshaurme/templates/admin/index.html:95
+#, fuzzy
+msgid "Reported:"
+msgstr "Передано:"
+
+#: vshaurme/templates/admin/index.html:80
+msgid "Locked:"
+msgstr "Залочено:"
+
+#: vshaurme/templates/admin/index.html:81
+msgid "Blocked:"
+msgstr "Заблокировано:"
+
+#: vshaurme/templates/admin/index.html:83
+msgid "View Locked"
+msgstr "Посмотреть залоченных"
+
+#: vshaurme/templates/admin/index.html:84
+msgid "View Blocked"
+msgstr "Посмотреть заблокированных"
 
 #: vshaurme/templates/errors/404.html:3 vshaurme/templates/errors/404.html:10
 msgid "404 Error"
